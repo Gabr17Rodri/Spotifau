@@ -1,0 +1,48 @@
+.container{
+    background-color: #5096f6;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: -40px;
+}
+
+.menu{
+    margin-left: 18%;
+    display: flex;
+}
+
+.menu svg{
+    color: #fff;
+    margin-top: 8px;
+}
+
+.menu span{
+    color: #fff;
+    margin-left: 3px;
+    margin-top: 12px;
+}
+
+.menu ul{
+    display: flex;
+    margin-left: 40%;
+    font-size: 13px;
+}
+
+.menu ul li{
+    margin-left: 15px;
+    list-style: none;
+    color: #fff;
+}
+
+.hero{
+    margin-left: 18%;
+}
+
+.hero .anuncio{
+    font-size: 70px;
+    color: #fff;
+}
+
+.hero .valor{
+    font-size: 30px;
+    color: #fff;
+}
