@@ -1,8 +1,10 @@
-.container{
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
     background-color: #5096f6;
-    margin-left: 3%;
-    margin-right: 3%;
-    margin-bottom: -40px;
+    padding-bottom: 80px;
 }
 
 .menu{
@@ -37,12 +39,63 @@
     margin-left: 18%;
 }
 
-.hero .anuncio{
-    font-size: 70px;
+.hero h1{
+    font-size: 56px;
     color: #fff;
+    margin-top: -50px;
+    margin-bottom: -10px;
 }
 
-.hero .valor{
-    font-size: 30px;
+.hero h4{
+    font-size: 20px;
     color: #fff;
+    margin-bottom: 15px;
+}
+
+.hero button{
+    background: #269926;
+    color: #fff;
+    border: none;
+    font-size: 11px;
+    padding: 8px 8px 8px 8px;
+    border-radius: 3px;
+}
+
+.hero .aviso{
+    font-size: 10px;
+    color: #fff;
+    margin-top: 40px;
+    margin-bottom: -15px;
+}
+
+.hero-foto img{
+    height: 390px;
+    position: absolute;
+    top: 18px;
+    right: 1%;
+}
+
+.body h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.body-2 ul{
+    list-style: none;
+    display: flex;
+}
+
+.body-2 ul li{
+    margin-left: 40px;
+}
+
+.body-2 ul li svg{
+    background-color: #cfcfcf;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.body-2 ul li p{
+    font-size: 13px;
+    text-align: center;
 }
