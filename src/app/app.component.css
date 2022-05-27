@@ -71,7 +71,11 @@
 }
 
 /*Body*/
-.body h1{
+.body{
+    margin-bottom: -170px;
+}
+
+.body-title h1{
     text-align: center;
     margin-top: 50px;
     margin-bottom: 40px;
@@ -85,11 +89,16 @@
     list-style: none;
     display: flex;
     text-align: center;
+    margin-left: -120px;
 }
 
 .body-2 ul li{
-    margin-left: 40px;
+    margin-right: 60px;
     margin-left: -10px;
+}
+
+.body-2 ul li:nth-child(3){
+    margin-right: -25px;
 }
 
 .body-2 ul li img{
